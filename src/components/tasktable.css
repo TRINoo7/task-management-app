@@ -1,0 +1,44 @@
+.table-class
+{
+    margin: auto;
+    width: 75%;
+    background-color: #ffffff;
+}
+th,td
+{
+    text-align: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+th
+{
+    color: #ffffff;
+    font-weight: normal;
+    background-color: #8f8f8f;
+    position: sticky
+}
+td 
+{
+    border: solid 1px #d8d8d8;
+    border-left: 0;
+    border-right: 0;
+    white-space: nowrap;
+}
+.table-button
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.table-button-element
+{
+    border-radius: 6px;
+    width: 75px;
+    height: 35px;
+    font-size: 15px;
+    color: #100e0e;
+}
+.table-button-element:hover
+{
+    color: #ffffff;
+    background-color: #100e0e;
+}
